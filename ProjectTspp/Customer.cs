@@ -1,4 +1,4 @@
-п»їusing System;
+using System;
 
 namespace ProjectTspp
 {
@@ -9,6 +9,7 @@ namespace ProjectTspp
         public string Surname { get; set; }
         public long PasportSeriesNumber { get; set; }
         public long Phone { get; set; }
+	   public string Adress {get; set;}
 
         ContractList contractList;
 
@@ -28,10 +29,10 @@ namespace ProjectTspp
         public void SetName()
         {
             string temp;
-            Console.Write("РРјСЏ: "); temp = Console.ReadLine();
+            Console.Write("Имя: "); temp = Console.ReadLine();
             while (temp.Length > 12)
             {
-                Console.Write("Р”Р°РЅРЅС‹Рµ РІРІРµРґРµРЅС‹ РЅРµРІРµСЂРЅРѕ (РґР»РёРЅРЅРѕРµ РёРјСЏ), РїРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ: ");
+                Console.Write("Данные введены неверно (длинное имя), повторите ввод: ");
                 temp = Console.ReadLine();
             }
             Name = temp;
@@ -40,10 +41,10 @@ namespace ProjectTspp
         public void SetSurname()
         {
             string temp;
-            Console.Write("Р¤Р°РјРёР»РёСЏ: "); temp = Console.ReadLine();
+            Console.Write("Фамилия: "); temp = Console.ReadLine();
             while (temp.Length > 12)
             {
-                Console.Write("Р”Р°РЅРЅС‹Рµ РІРІРµРґРµРЅС‹ РЅРµРІРµСЂРЅРѕ (РґР»РёРЅРЅР°СЏ С„Р°РјРёР»РёСЏ), РїРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ: ");
+                Console.Write("Данные введены неверно (длинная фамилия), повторите ввод: ");
                 temp = Console.ReadLine();
             }
             Surname = temp;
@@ -52,10 +53,10 @@ namespace ProjectTspp
         public void SetPasportSeriesNumber()
         {
             long temp;
-            Console.Write("РЎРµСЂРёСЏ Рё РЅРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°: ");
+            Console.Write("Серия и номер паспорта: ");
             while (!Int64.TryParse(Console.ReadLine(), out temp))
             {
-                Console.Write("Р”Р°РЅРЅС‹Рµ РІРІРµРґРµРЅС‹ РЅРµРІРµСЂРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ: ");
+                Console.Write("Данные введены неверно, повторите ввод: ");
             }
             PasportSeriesNumber = temp;
         }
@@ -63,10 +64,10 @@ namespace ProjectTspp
         public void SetPhone()
         {
             long temp;
-            Console.Write("РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР°: ");
+            Console.Write("Номер телефона: ");
             while (!Int64.TryParse(Console.ReadLine(), out temp))
             {
-                Console.Write("Р”Р°РЅРЅС‹Рµ РІРІРµРґРµРЅС‹ РЅРµРІРµСЂРЅРѕ, РїРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ: ");
+                Console.Write("Данные введены неверно, повторите ввод: ");
             }
             Phone = temp;
         }
