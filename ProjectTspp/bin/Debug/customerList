@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <Name>qwe1</Name>
+    <Surname>qwe1</Surname>
+    <PasportSeriesNumber>3333333333</PasportSeriesNumber>
+    <Phone>345565</Phone>
+  </Customer>
+  <Customer>
+    <Name>qwe2</Name>
+    <Surname>qwe2</Surname>
+    <PasportSeriesNumber>4444444444</PasportSeriesNumber>
+    <Phone>456654</Phone>
+  </Customer>
+  <Customer>
+    <Name>qwe3</Name>
+    <Surname>qwe3</Surname>
+    <PasportSeriesNumber>5555555555</PasportSeriesNumber>
+    <Phone>452289</Phone>
+  </Customer>
+  <Customer>
+    <Name>qwe4</Name>
+    <Surname>qwe4</Surname>
+    <PasportSeriesNumber>6666666666</PasportSeriesNumber>
+    <Phone>997452</Phone>
+  </Customer>
+</ArrayOfCustomer>

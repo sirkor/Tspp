@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfContract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contract xsi:type="ContractLifeHealth">
+    <Cust>
+      <Name>qwe2</Name>
+      <Surname>qwe2</Surname>
+      <PasportSeriesNumber>4444444444</PasportSeriesNumber>
+      <Phone>456654</Phone>
+    </Cust>
+    <Validity>2020-05-09T22:20:51.1460221+03:00</Validity>
+    <InsuranceAmuont>50000</InsuranceAmuont>
+    <CompensationPrecentage>85</CompensationPrecentage>
+    <HospitalCard>453</HospitalCard>
+  </Contract>
+  <Contract xsi:type="ContactNotMovableProperty">
+    <Cust>
+      <Name>qwe3</Name>
+      <Surname>qwe3</Surname>
+      <PasportSeriesNumber>5555555555</PasportSeriesNumber>
+      <Phone>452289</Phone>
+    </Cust>
+    <Validity>2023-05-20T21:57:28.3856197+03:00</Validity>
+    <InsuranceAmuont>50000</InsuranceAmuont>
+    <CompensationPrecentage>70</CompensationPrecentage>
+    <Location>Omega</Location>
+  </Contract>
+  <Contract xsi:type="ContractLifeHealth">
+    <Cust>
+      <Name>qwe3</Name>
+      <Surname>qwe3</Surname>
+      <PasportSeriesNumber>5555555555</PasportSeriesNumber>
+      <Phone>452289</Phone>
+    </Cust>
+    <Validity>2020-05-21T20:28:23.0695511+03:00</Validity>
+    <InsuranceAmuont>150000</InsuranceAmuont>
+    <CompensationPrecentage>65</CompensationPrecentage>
+    <HospitalCard>215</HospitalCard>
+  </Contract>
+</ArrayOfContract>

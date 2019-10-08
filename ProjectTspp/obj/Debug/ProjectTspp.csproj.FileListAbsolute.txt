@@ -1,0 +1,7 @@
+E:\Project_VS\ProjectTspp\ProjectTspp\obj\Debug\ProjectTspp.csprojAssemblyReference.cache
+E:\Project_VS\ProjectTspp\ProjectTspp\obj\Debug\ProjectTspp.csproj.CoreCompileInputs.cache
+E:\Project_VS\ProjectTspp\ProjectTspp\bin\Debug\ProjectTspp.exe.config
+E:\Project_VS\ProjectTspp\ProjectTspp\bin\Debug\ProjectTspp.exe
+E:\Project_VS\ProjectTspp\ProjectTspp\bin\Debug\ProjectTspp.pdb
+E:\Project_VS\ProjectTspp\ProjectTspp\obj\Debug\ProjectTspp.exe
+E:\Project_VS\ProjectTspp\ProjectTspp\obj\Debug\ProjectTspp.pdb
